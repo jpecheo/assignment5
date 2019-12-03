@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Title</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img src="https://lh3.googleusercontent.com/-fQuW-1ZJdTw/W70glr_l_qI/AAAAAAAAAC0/44uNCrdNmYsiIei1olZVi9ufYaNM1iumACEwYBhgL/w278-h280-p/IMG_0555.PNG" alt="Steve Buscemi" height="100"></a>
+
+        <nav>
+            <ul>
+                <li><a href="Info.html">Info</a></li>
+                <li><a href="contact.html"></a></li>
+                <li><a href="Pics.html">Pics</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main> 
+        <form action="results.html"> 
+            <p class="centered"> 
+                <label for="hireme">Name (First and Last):</label>
+                <input type="text" name="hireme" id="hireme">
+            </p>
+            <p class="centered">
+                <label for="lastname">Phone #: </label>
+                <input type="text" name="lastname" id="lastname">
+            </p>
+            <p class="centered">
+                <label for="email">E-mail: </label>
+                <input type="text" name="email" id="email">
+            </p>
+            <p class="centered">
+                <label for="how-you-heard">What type of venue do you need music for?</label>
+                <select name="how-you-heard" id="how-you-heard" multiple>
+                    <option value="Wedding">Wedding</option>
+                    <option value="Private Party">Private Party</option>
+                    <option value="Business Opening">Business Opening</option>
+                    <option value="Restaurant Ambience">Restaurant Ambience</option>
+                </select>
+            </p>
+            <p class="centered">
+                <label for="comments">How did you hear about me?:</label>
+                <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
+            </p>
+
+            <div class="radio-buttons">
+                <label>Jazz? :0</label>
+                <input type="radio" name="join-newsletter" value="Yes" checked>Yes
+                <input type="radio" name="join-newsletter" value="No">No
+            </div>
+            <br>
+
+            <label>What instrument do you need?</label>
+            <div class="checkbox-group">
+                <p class="checkbox-item"><input type="checkbox" name="vehicle" value="leaf">Guitar</p>
+                <p class="checkbox-item"><input type="checkbox" name="vehicle" value="prius">Bass</p>
+                <p class="checkbox-item"><input type="checkbox" name="vehicle" value="bolt">Drums</p>
+            </div>
+
+            <br>
+            <p>
+                <label></label>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </p>
+
+
+        </form> 
+    </main>
+
+    <footer>
+        copyright2019
+    </footer>
+
+
+</body>
+
+</html>
