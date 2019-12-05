@@ -1,8 +1,12 @@
 body {
-    
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/background.png);
+
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/background.png);
+    background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+
     color: whitesmoke;
-    background: darkblue;
+    background-color: darkblue;
     font-family: cursive;
     font-size: 15pt;
 }
@@ -28,8 +32,12 @@ header {
 header nav {
     display: flex;
     justify-content: flex-end;
-        flex: 1;
+    flex: 1;
 
+}
+
+a:hover {
+    color: aqua;
 }
 
 header nav ul {
@@ -58,22 +66,22 @@ a {
 
 
 form p {
-    display: flex; 
-    margin-bottom: lem; 
+    display: flex;
+    margin-bottom: 1em;
 }
 
-form label {
-    
-}
+form label {}
 
 
-form inpput, textarea, select {
+form inpput,
+textarea,
+select {
     flex: 1;
     margin: 0 1em;
-    border border-radius: 5px; 
+    border-radius: 5px;
 }
 
 
 form select {
-    text-align: center; 
+    text-align: center;
 }
